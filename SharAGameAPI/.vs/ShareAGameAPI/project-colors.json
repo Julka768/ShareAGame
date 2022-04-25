@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1fcfa3e9-761c-42c2-9409-6b4b3ef122fa": {
+      "ProjectGuid": "1fcfa3e9-761c-42c2-9409-6b4b3ef122fa",
+      "DisplayName": "ShareAGameAPI",
+      "ColorIndex": 0
+    },
+    "daaf4010-0aed-4753-9fcc-62c4022490df": {
+      "ProjectGuid": "daaf4010-0aed-4753-9fcc-62c4022490df",
+      "DisplayName": "ShareAGame.DataAccess",
+      "ColorIndex": 1
+    },
+    "7df62270-e252-4dba-b108-08b8bb14a97f": {
+      "ProjectGuid": "7df62270-e252-4dba-b108-08b8bb14a97f",
+      "DisplayName": "ShareAGame.Repositories",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

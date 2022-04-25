@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PROJEKTY\\ShareAGame\\SharAGameAPI\\ShareAGameRepository\\ShareAGame.Repositories.csproj": {}
+  },
+  "projects": {
+    "D:\\PROJEKTY\\ShareAGame\\SharAGameAPI\\ShareAGame.DataAccess\\ShareAGame.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJEKTY\\ShareAGame\\SharAGameAPI\\ShareAGame.DataAccess\\ShareAGame.DataAccess.csproj",
+        "projectName": "ShareAGame.DataAccess",
+        "projectPath": "D:\\PROJEKTY\\ShareAGame\\SharAGameAPI\\ShareAGame.DataAccess\\ShareAGame.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\jczer\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJEKTY\\ShareAGame\\SharAGameAPI\\ShareAGame.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jczer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROJEKTY\\ShareAGame\\SharAGameAPI\\ShareAGameRepository\\ShareAGame.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROJEKTY\\ShareAGame\\SharAGameAPI\\ShareAGameRepository\\ShareAGame.Repositories.csproj",
+        "projectName": "ShareAGame.Repositories",
+        "projectPath": "D:\\PROJEKTY\\ShareAGame\\SharAGameAPI\\ShareAGameRepository\\ShareAGame.Repositories.csproj",
+        "packagesPath": "C:\\Users\\jczer\\.nuget\\packages\\",
+        "outputPath": "D:\\PROJEKTY\\ShareAGame\\SharAGameAPI\\ShareAGameRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jczer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\PROJEKTY\\ShareAGame\\SharAGameAPI\\ShareAGame.DataAccess\\ShareAGame.DataAccess.csproj": {
+                "projectPath": "D:\\PROJEKTY\\ShareAGame\\SharAGameAPI\\ShareAGame.DataAccess\\ShareAGame.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

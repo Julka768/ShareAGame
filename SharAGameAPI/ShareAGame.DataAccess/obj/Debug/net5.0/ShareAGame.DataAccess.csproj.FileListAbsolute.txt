@@ -1,0 +1,15 @@
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\bin\Debug\net5.0\ShareAGame.DataAccess.deps.json
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\bin\Debug\net5.0\ShareAGame.DataAccess.dll
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\bin\Debug\net5.0\ref\ShareAGame.DataAccess.dll
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\bin\Debug\net5.0\ShareAGame.DataAccess.pdb
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\obj\Debug\net5.0\ShareAGame.DataAccess.csproj.AssemblyReference.cache
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\obj\Debug\net5.0\ShareAGame.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\obj\Debug\net5.0\ShareAGame.DataAccess.AssemblyInfoInputs.cache
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\obj\Debug\net5.0\ShareAGame.DataAccess.AssemblyInfo.cs
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\obj\Debug\net5.0\ShareAGame.DataAccess.csproj.CoreCompileInputs.cache
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\obj\Debug\net5.0\ShareAGame.DataAccess.dll
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\obj\Debug\net5.0\ref\ShareAGame.DataAccess.dll
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\obj\Debug\net5.0\ShareAGame.DataAccess.pdb
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\bin\Debug\net5.0\ShareAGame.DataAccess.runtimeconfig.json
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\bin\Debug\net5.0\ShareAGame.DataAccess.runtimeconfig.dev.json
+D:\PROJEKTY\ShareAGame\SharAGameAPI\ShareAGame.DataAccess\obj\Debug\net5.0\ShareAGame.DataAccess.genruntimeconfig.cache
