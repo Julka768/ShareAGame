@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 namespace ShareAGame.Repositories.Interfaces
 {
   public interface IGameRepository
-  {
+    {
       Task<IList<Game>> GetAllAsync();
-    }
+      Guid Create(CreateNewGameDto dto);
+  }
   
 }

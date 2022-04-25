@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using ShareAGame.DataAccess.Models;
 using ShareAGame.Repositories.Interfaces;
@@ -23,6 +24,14 @@ namespace ShareAGameAPI.Controllers
     {
       var games = await _gameRepository.GetAllAsync();
       return Ok(games);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> CreateNewGame([FromBody] CreateNewGameDto dto)
+    {
+      var gameId = _gameRepository.Create(dto);
+
+      return Created($"/api/game/{gameId}", null);
     }
   }
 }
