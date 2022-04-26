@@ -40,5 +40,27 @@ namespace ShareAGame.Repositories.Repositories
 
     }
 
+    public void Delete(Guid id)
+    {
+      var game = _dbContext
+          .Games
+          .FirstOrDefault(g => g.Id == id);
+
+
+      _dbContext.Games.Remove(game);
+      _dbContext.SaveChanges();
+    }
+
+    public void Update(Guid id, CreateNewGameDto dto)
+    {
+      var game = _dbContext
+          .Games
+          .FirstOrDefault(g => g.Id == id);
+
+
+      game.Name = dto.Name;
+      game.IsDigital = dto.IsDigital;
+      _dbContext.SaveChanges();
+    }
   }
 }
