@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ShareAGame.DataAccess.Configurations;
+using ShareAGame.DataAccess.Entities;
 using ShareAGame.DataAccess.Models;
 
 namespace ShareAGame.DataAccess
@@ -11,8 +12,9 @@ namespace ShareAGame.DataAccess
     }
 
     public DbSet<Game> Games { get; set; }
+    public DbSet<Publisher> Publishers { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
       modelBuilder.ApplyConfiguration(new GameConfiguration());
     }

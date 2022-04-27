@@ -1,14 +1,15 @@
+using ShareAGame.DataAccess.Entities;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShareAGame.DataAccess.Models
 {
   public class CreateNewGameDto
   {
-    public string Name { get; set; }
-    public bool IsDigital { get; set; }
-  }
+        public string Name { get; set; }
+        public bool IsDigital { get; set; }
+        public DateTimeOffset ReleaseDate { get; set; }
+        public string ImageUrl { get; set; }
+        public virtual Publisher Publisher { get; set; }
+        public GamePlatform GamePlatform { get; set; }
+    }
 }

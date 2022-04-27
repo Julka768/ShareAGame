@@ -11,6 +11,7 @@ namespace ShareAGame.Repositories.Interfaces
     {
       Task<IList<Game>> GetAllAsync();
       Guid Create(CreateNewGameDto dto);
+      Guid CreatePublisher(CreateNewPublisherDto publishetDto);
       void Delete(Guid id);
       void Update(Guid id, CreateNewGameDto dto);
   }
