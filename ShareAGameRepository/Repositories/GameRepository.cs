@@ -33,7 +33,7 @@ namespace ShareAGame.Repositories.Repositories
                 IsDigital = gameDto.IsDigital,
                 ReleaseDate = gameDto.ReleaseDate,
                 ImageUrl = gameDto.ImageUrl,
-                Publisher = gameDto.Publisher,
+                PublisherId = gameDto.PublisherId,
                 GamePlatform = gameDto.GamePlatform,
             };
 
@@ -79,7 +79,7 @@ namespace ShareAGame.Repositories.Repositories
             game.IsDigital = dto.IsDigital;
             game.ReleaseDate = dto.ReleaseDate;
             game.ImageUrl = dto.ImageUrl;
-            game.Publisher = dto.Publisher;
+            game.PublisherId = dto.PublisherId;
             game.GamePlatform = dto.GamePlatform;
 
             _dbContext.SaveChanges();
