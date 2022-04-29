@@ -1,5 +1,6 @@
 <h1>Moja lista gier</h1>
 <div class="container">
+  <button mat-button (click)="addNewGame()">Add new game</button>
   <div *ngFor="let game of games" class="game">
     <span><img src="{{ game.imageUrl }}" alt="{{ game.imageUrl }}" /></span>
     <span>{{ game.name }}</span>

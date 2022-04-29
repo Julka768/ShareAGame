@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Game } from '../my-games/my-games.component';
 import { HttpClient } from '@angular/common/http';
+import { CreateNewGameDto } from '../models/request/create-new-game-dto';
+import { Game } from '../models/game';
 
 @Injectable({
   providedIn: 'root',
@@ -11,5 +12,11 @@ export class GamesService {
 
   getAllGames(): Observable<Game[]> {
     return this.http.get<Game[]>('https://localhost:44352/Game').pipe();
+  }
+
+  createNewGame(request: CreateNewGameDto) {
+    return this.http
+      .post('https://localhost:44352/Game/CreateNewGame', request)
+      .pipe();
   }
 }

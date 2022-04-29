@@ -26,6 +26,7 @@ namespace ShareAGameAPI.Extensions
         public static void ConfigureRepositories(this IServiceCollection services)
         {
             services.AddScoped<IGameRepository, GameRepository>();
+            services.AddScoped<IPublisherRepository, PublisherRepository>();
         }
 
 

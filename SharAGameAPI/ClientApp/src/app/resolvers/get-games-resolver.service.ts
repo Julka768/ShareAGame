@@ -5,7 +5,7 @@ import {
   RouterStateSnapshot,
 } from '@angular/router';
 import { Observable } from 'rxjs';
-import { Game } from '../my-games/my-games.component';
+import { Game } from '../models/game';
 import { GamesService } from '../services/games.service';
 
 @Injectable({
