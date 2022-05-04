@@ -17,11 +17,18 @@ namespace ShareAGameAPI.Controllers
             _gameRepository = gameRepository;
         }
 
-        [HttpGet]
+        [HttpGet("[action]")]
         public async Task<IActionResult> GetAll()
         {
             var games = await _gameRepository.GetAllAsync();
             return Ok(games);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById([FromRoute] Guid id)
+        {
+            var game = await _gameRepository.GetById(id);
+            return Ok(game);
         }
 
         [HttpPost("[action]")]

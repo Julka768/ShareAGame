@@ -19,4 +19,12 @@ export class GamesService {
       .post('https://localhost:44352/Game/CreateNewGame', request)
       .pipe();
   }
+
+  delete(gameId: string) {
+    return this.http.delete('https://localhost:44352/Game/' + gameId).pipe();
+  }
+
+  getGameById(gameId: string) {
+    return this.http.get<Game>('https://localhost:44352/Game/' + gameId).pipe();
+  }
 }

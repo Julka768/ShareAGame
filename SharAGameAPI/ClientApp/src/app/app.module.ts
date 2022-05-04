@@ -7,11 +7,17 @@ import { AppComponent } from './app.component';
 import { MyGamesComponent } from './my-games/my-games.component';
 import { CreateNewGameModalComponent } from './create-new-game-modal/create-new-game-modal.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from './material.module';
+import { MaterialModule } from './shared/material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DetailsGameComponent } from './details-game/details-game.component';
 
 @NgModule({
-  declarations: [AppComponent, MyGamesComponent, CreateNewGameModalComponent],
+  declarations: [
+    AppComponent,
+    MyGamesComponent,
+    CreateNewGameModalComponent,
+    DetailsGameComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

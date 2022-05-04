@@ -25,6 +25,14 @@ namespace ShareAGame.Repositories.Repositories
             return games;
         }
 
+        public async Task<Game> GetById(Guid id)
+        {
+            var game = _dbContext
+                .Games
+                .FirstOrDefault(g => g.Id == id);
+            return game;
+        }
+
         public Guid Create(CreateNewGameDto gameDto)
         {
             var game = new Game()
