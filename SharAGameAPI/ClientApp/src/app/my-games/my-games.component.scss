@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.game {
+  width: 10%;
+  height: 60%;
+  overflow: hidden;
+  margin: 4%;
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  display: block;
+  text-align: center;
+}
+
+span img {
+  width: 135px;
+  height: 190px;
+}
+
+.btn-delete,
+.btn-details {
+  margin: 6% auto;
+}
+
+// .btn-delete i,
+// .btn-details i {
+//   color: black;
+//   font-size: 14px;
+// }
+
+.btn-details:hover,
+.btn-details i:hover,
+.btn-delete:hover,
+.btn-delete i:hover {
+  cursor: pointer;
+}

@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+$dark-grey: rgb(29, 28, 28);
+$black: rgb(12, 12, 12);
+$white: rgb(202, 196, 196);
+
+body {
+  background-color: $dark-grey;
+  color: $white;
+  margin: 0;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
