@@ -11,7 +11,7 @@ export class GamesService {
   constructor(private http: HttpClient) {}
 
   getAllGames(): Observable<Game[]> {
-    return this.http.get<Game[]>('https://localhost:44352/Game').pipe();
+    return this.http.get<Game[]>('https://localhost:44352/Game/GetAll').pipe();
   }
 
   createNewGame(request: CreateNewGameDto) {
@@ -24,7 +24,9 @@ export class GamesService {
     return this.http.delete('https://localhost:44352/Game/' + gameId).pipe();
   }
 
-  getGameById(gameId: string) {
-    return this.http.get<Game>('https://localhost:44352/Game/' + gameId).pipe();
+  getGameById(gameId: string): Observable<Game> {
+    return this.http
+      .get<Game>('https://localhost:44352/Game/GetById/' + gameId)
+      .pipe();
   }
 }

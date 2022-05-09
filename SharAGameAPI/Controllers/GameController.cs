@@ -24,7 +24,7 @@ namespace ShareAGameAPI.Controllers
             return Ok(games);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("[action]/{id}")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             var game = await _gameRepository.GetById(id);

@@ -18,11 +18,11 @@ const routes: Routes = [
     component: MyGamesComponent,
     resolve: { games: GetGamesResolverService },
   },
-  // {
-  //   path: 'details/:gameId',
-  //   component: DetailsGameComponent,
-  //   resolve: { game: GetGameByIdResolverService },
-  // },
+  {
+    path: 'details/:gameId',
+    component: DetailsGameComponent,
+    resolve: { game: GetGameByIdResolverService },
+  },
 
   {
     path: '',
