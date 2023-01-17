@@ -3,6 +3,7 @@ import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { CreateNewGameDto } from '../models/request/create-new-game-dto';
 import { Game } from '../models/game';
+import { EditGameDto } from '../models/request/edit-game-dto';
 
 @Injectable({
   providedIn: 'root',
@@ -27,6 +28,12 @@ export class GamesService {
   getGameById(gameId: string): Observable<Game> {
     return this.http
       .get<Game>('https://localhost:44352/Game/GetById/' + gameId)
+      .pipe();
+  }
+
+  update(request: EditGameDto, gameId: string): Observable<Game> {
+    return this.http
+      .put<Game>('https://localhost:44352/Game/' + gameId, request)
       .pipe();
   }
 }

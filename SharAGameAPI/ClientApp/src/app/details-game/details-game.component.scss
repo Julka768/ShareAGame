@@ -1,0 +1,19 @@
+.container-details {
+  display: flex;
+  margin: 4%;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding: 4% 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2%;
+}
+
+.details span {
+  margin-bottom: 10%;
+}

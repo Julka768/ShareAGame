@@ -76,19 +76,19 @@ namespace ShareAGame.Repositories.Repositories
             _dbContext.SaveChanges();
         }
 
-        public void Update(Guid id, CreateNewGameDto dto)
+        public void Update(Guid id, EditGameDto EditGamedto)
         {
             var game = _dbContext
                 .Games
                 .FirstOrDefault(g => g.Id == id);
 
 
-            game.Name = dto.Name;
-            game.IsDigital = dto.IsDigital;
-            game.ReleaseDate = dto.ReleaseDate;
-            game.ImageUrl = dto.ImageUrl;
-            game.PublisherId = dto.PublisherId;
-            game.GamePlatform = dto.GamePlatform;
+            game.Name = EditGamedto.Name;
+            game.IsDigital = EditGamedto.IsDigital;
+            game.ReleaseDate = EditGamedto.ReleaseDate;
+            game.ImageUrl = EditGamedto.ImageUrl;
+            game.PublisherId = EditGamedto.PublisherId;
+            game.GamePlatform = EditGamedto.GamePlatform;
 
             _dbContext.SaveChanges();
         }

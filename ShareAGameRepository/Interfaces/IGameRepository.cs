@@ -11,8 +11,8 @@ namespace ShareAGame.Repositories.Interfaces
         Guid Create(CreateNewGameDto dto);
         Guid CreatePublisher(CreateNewPublisherDto publishetDto);
         void Delete(Guid id);
-        void Update(Guid id, CreateNewGameDto dto);
         Task<Game> GetById(Guid id);
+        void Update(Guid id, EditGameDto EditGamedto);
     }
 
 }

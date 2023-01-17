@@ -56,7 +56,7 @@ namespace ShareAGameAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public ActionResult Update([FromBody] CreateNewGameDto dto, [FromRoute] Guid id)
+        public ActionResult Update([FromBody] EditGameDto dto, [FromRoute] Guid id)
         {
 
             _gameRepository.Update(id, dto);

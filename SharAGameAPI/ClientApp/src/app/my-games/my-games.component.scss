@@ -7,6 +7,7 @@ h1 {
   display: flex;
   justify-content: center;
   margin: auto;
+  flex-wrap: wrap;
 }
 
 .game {
@@ -33,11 +34,16 @@ span img {
   margin: 6% auto;
 }
 
-// .btn-delete i,
-// .btn-details i {
-//   color: black;
-//   font-size: 14px;
-// }
+.href-edit {
+  text-decoration: none;
+  color: rgb(202, 196, 196);
+  text-align: center;
+}
+
+.href-edit:hover {
+  cursor: pointer;
+  color: rgb(173, 170, 170);
+}
 
 .btn-details:hover,
 .btn-details i:hover,

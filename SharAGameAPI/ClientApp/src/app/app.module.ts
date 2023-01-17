@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DetailsGameComponent } from './details-game/details-game.component';
+import { EditGameModalComponent } from './edit-game-modal/edit-game-modal.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { DetailsGameComponent } from './details-game/details-game.component';
     MyGamesComponent,
     CreateNewGameModalComponent,
     DetailsGameComponent,
+    EditGameModalComponent,
   ],
   imports: [
     BrowserModule,

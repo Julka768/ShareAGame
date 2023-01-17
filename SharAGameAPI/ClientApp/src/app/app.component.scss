@@ -1,10 +1,19 @@
 // .container-app {
 // }
 
-footer {
+footer,
+header {
   height: 5%;
   background-color: rgb(20, 20, 20);
 }
+
+header h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.5%;
+  margin: 0;
+}
+
 footer p {
   padding: 0.5%;
   margin: 0;

@@ -1,10 +1,15 @@
-<pre>
-  {{ game | json }}
-</pre>
-
-<!-- <div *ngFor="game" class="game">
-  <span><img src="{{ game.imageUrl }}" alt="{{ game.imageUrl }}" /></span>
-  <span>{{ game.name }}</span>
-  <span>{{ game.isDigital }}</span>
-  <span>{{ game.gamePlatform }}</span>
-</div> -->
+<div class="container-details">
+  <div class="img-game">
+    <span><img src="{{ game.imageUrl }}" alt="{{ game.imageUrl }}" /></span>
+  </div>
+  <div class="details">
+    <span>{{ game.name }}</span>
+    <span>{{ game.isDigital }}</span>
+    <span>{{ game.gamePlatform }}</span>
+    <span>{{ game.publisher }}</span>
+  </div>
+  <button mat-button (click)="editGame()">
+    Edit game
+    <i class="fa-solid fa-pen-circle"></i>
+  </button>
+</div>
